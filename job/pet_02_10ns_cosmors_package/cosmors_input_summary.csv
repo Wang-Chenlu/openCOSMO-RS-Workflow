@@ -1,0 +1,10 @@
+ns,source_trj,natoms,final_comment,cosmors_input,expected_solute_orcacosmo
+2,pet_1_10ns_opt_package\02ns\pet_02ns_opt_trj.xyz,76,Coordinates from ORCA-job pet_02ns_opt E -2288.113179292636,pet_02_10ns_cosmors_package\02ns\pet_02ns_cosmors.inp,pet_02ns_cosmors.solute.orcacosmo
+3,pet_1_10ns_opt_package\03ns\pet_03ns_opt_trj.xyz,76,Coordinates from ORCA-job pet_03ns_opt E -2288.118248183558,pet_02_10ns_cosmors_package\03ns\pet_03ns_cosmors.inp,pet_03ns_cosmors.solute.orcacosmo
+4,pet_1_10ns_opt_package\04ns\pet_04ns_opt_trj.xyz,76,Coordinates from ORCA-job pet_04ns_opt E -2288.125106910894,pet_02_10ns_cosmors_package\04ns\pet_04ns_cosmors.inp,pet_04ns_cosmors.solute.orcacosmo
+5,pet_1_10ns_opt_package\05ns\pet_05ns_opt_trj.xyz,76,Coordinates from ORCA-job pet_05ns_opt E -2288.123948061334,pet_02_10ns_cosmors_package\05ns\pet_05ns_cosmors.inp,pet_05ns_cosmors.solute.orcacosmo
+6,pet_1_10ns_opt_package\06ns\pet_06ns_opt_trj.xyz,76,Coordinates from ORCA-job pet_06ns_opt E -2288.123289148625,pet_02_10ns_cosmors_package\06ns\pet_06ns_cosmors.inp,pet_06ns_cosmors.solute.orcacosmo
+7,pet_1_10ns_opt_package\07ns\pet_07ns_opt_trj.xyz,76,Coordinates from ORCA-job pet_07ns_opt E -2288.121601916811,pet_02_10ns_cosmors_package\07ns\pet_07ns_cosmors.inp,pet_07ns_cosmors.solute.orcacosmo
+8,pet_1_10ns_opt_package\08ns\pet_08ns_opt_trj.xyz,76,Coordinates from ORCA-job pet_08ns_opt E -2288.126012331239,pet_02_10ns_cosmors_package\08ns\pet_08ns_cosmors.inp,pet_08ns_cosmors.solute.orcacosmo
+9,pet_1_10ns_opt_package\09ns\pet_09ns_opt_trj.xyz,76,Coordinates from ORCA-job pet_09ns_opt E -2288.115720446315,pet_02_10ns_cosmors_package\09ns\pet_09ns_cosmors.inp,pet_09ns_cosmors.solute.orcacosmo
+10,pet_1_10ns_opt_package\10ns\pet_10ns_opt_trj.xyz,76,Coordinates from ORCA-job pet_10ns_opt E -2288.124410611339,pet_02_10ns_cosmors_package\10ns\pet_10ns_cosmors.inp,pet_10ns_cosmors.solute.orcacosmo

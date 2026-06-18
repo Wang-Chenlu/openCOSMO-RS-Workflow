@@ -1,0 +1,33 @@
+# Large trajectories and raw MD dumps
+job/35-PET/eq1.xyz
+job/**/eq1.xyz
+job/**/*.lammpstrj
+job/**/*.dcd
+job/**/*.xtc
+job/**/*.trr
+
+# Large ORCA logs and verbose outputs
+job/**/*_opt.out
+job/**/35-PET_opt.out
+job/**/*.gbw
+job/**/*.tmp
+
+# Literature PDFs are not redistributed in this repository
+job/*.pdf
+openCOSMO/*.pdf
+
+# External upstream repository; keep a pointer in README instead
+openCOSMO/openCOSMO-RS_py/
+openCOSMO/_move_residue_openCOSMO-RS_py/
+
+# Python/cache/build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Office lock files and OS/editor files
+~$*
+.DS_Store
+Thumbs.db
+
