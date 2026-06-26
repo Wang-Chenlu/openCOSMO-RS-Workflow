@@ -8,14 +8,6 @@ ROOT = Path(__file__).resolve().parents[1]
 
 JOBS = [
     {
-        "directory": "31-CH2O2",
-        "xyz": "31-CH2O2.xyz",
-        "basename": "31-CH2O2_opt",
-        "job_name": "opt_ch2o2",
-        "keywords": "M062X def2-TZVP D3zero Opt noautostart miniprint pal4",
-        "ncores": 4,
-    },
-    {
         "directory": "34-C5H8O2",
         "xyz": "34-C5H8O2.xyz",
         "basename": "34-C5H8O2_opt",

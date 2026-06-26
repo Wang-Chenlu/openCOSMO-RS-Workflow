@@ -71,7 +71,6 @@ def parse_args():
         action="append",
         default=[
             "GVL={}".format(results_dir / "gvl.solute.orcacosmo"),
-            "Formic_acid={}".format(results_dir / "formic_acid.solute.orcacosmo"),
         ],
         help="Solvent as NAME=path.orcacosmo. Repeat for multiple solvents.",
     )

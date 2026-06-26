@@ -1,4 +1,4 @@
-# PET/GVL/Formic Acid ORCA COSMORS Package
+# PET/GVL ORCA COSMORS Package
 
 This package was generated from the final frames of the completed ORCA geometry
 optimizations.
@@ -21,8 +21,7 @@ Expected files needed by openCOSMO-RS:
 ```text
 pet_trimer.solute.orcacosmo
 gvl.solute.orcacosmo
-formic_acid.solute.orcacosmo
 ```
 
 The extra `*.solvent.orcacosmo` files generated from `COSMORS(ethanol)` are
-ethanol reference files and are not used for PET-in-GVL/formic-acid solubility.
+ethanol reference files and are not used for PET-in-GVL solubility.

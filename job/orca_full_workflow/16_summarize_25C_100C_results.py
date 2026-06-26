@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Summarize PET solubility at 25 C and 100 C for the four solvents."""
+"""Summarize PET-in-GVL solubility at 25 C and 100 C."""
 
 import csv
 from pathlib import Path
@@ -11,26 +11,21 @@ OUT = JOB / "pet_solubility_25C_100C_summary.csv"
 SOURCES = {
     "25C": [
         JOB / "pet_1_10ns_solubility_results" / "pet_1_10ns_solubility_summary.csv",
-        JOB / "pet_extra_solvent_solubility_results" / "pet_extra_solvent_solubility_summary.csv",
     ],
     "100C": [
         JOB / "pet_1_10ns_solubility_results_373K" / "pet_1_10ns_solubility_summary.csv",
-        JOB / "pet_extra_solvent_solubility_results_373K" / "pet_extra_solvent_solubility_summary.csv",
     ],
 }
 
 ORDER = [
     ("GVL", "GVL"),
-    ("NMP", "NMP"),
-    ("Formic_acid", "CH2O2 / formic acid"),
-    ("Isopropanol", "ISOPROPANOL"),
 ]
 
 
 def read_summary(paths):
     values = {}
     for path in paths:
-        with path.open(newline="", encoding="utf-8") as stream:
+        with path.open(newline="", encoding="utf-8-sig") as stream:
             for row in csv.DictReader(stream):
                 values[(row["solvent"], row["quantity"])] = row
     return values

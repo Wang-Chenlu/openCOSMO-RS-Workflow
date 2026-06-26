@@ -10,14 +10,6 @@ PACKAGE_DIR = ROOT / "pet_cosmors_hpc_package"
 
 JOBS = [
     {
-        "source_dir": "31-CH2O2",
-        "trajectory": "31-CH2O2_opt_trj.xyz",
-        "final_xyz": "31-CH2O2_opt_final.xyz",
-        "basename": "formic_acid",
-        "job_name": "cosmo_formic",
-        "ncores": 4,
-    },
-    {
         "source_dir": "34-C5H8O2",
         "trajectory": "34-C5H8O2_opt_trj.xyz",
         "final_xyz": "34-C5H8O2_opt_final.xyz",
@@ -74,7 +66,7 @@ echo ".orcacosmo files:"
 ls -lh *.orcacosmo
 """
 
-README_TEMPLATE = """# PET/GVL/Formic Acid ORCA COSMORS Package
+README_TEMPLATE = """# PET/GVL ORCA COSMORS Package
 
 This package was generated from the final frames of the completed ORCA geometry
 optimizations.
@@ -97,11 +89,10 @@ Expected files needed by openCOSMO-RS:
 ```text
 pet_trimer.solute.orcacosmo
 gvl.solute.orcacosmo
-formic_acid.solute.orcacosmo
 ```
 
 The extra `*.solvent.orcacosmo` files generated from `COSMORS(ethanol)` are
-ethanol reference files and are not used for PET-in-GVL/formic-acid solubility.
+ethanol reference files and are not used for PET-in-GVL solubility.
 """
 
 

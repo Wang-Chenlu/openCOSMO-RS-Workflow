@@ -115,7 +115,6 @@ def collect_solvents():
     base = ROOT / "pet_cosmors_hpc_package"
     return [
         ("GVL", require_file(base / "gvl.solute.orcacosmo")),
-        ("Formic_acid", require_file(base / "formic_acid.solute.orcacosmo")),
     ]
 
 
